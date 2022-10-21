@@ -5,19 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/desktop.css">
     <title>Tela de login</title>
 </head>
 <body>
-    <main>
-        <section>
+    <main class="container">
+        <section class="login container">
             <div class="image">
-                <img src="assets/home-office1.jpg" alt="imagem notebook">
+                
             </div>
+
             <div class="form-login">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a). Faça login para acessar sua conta e dar início às suas configurações.</p>
                 <form action="login.php" method="post">
-                    
+                    <input type="text" required placeholder="Nickname">
+                    <input type="password" required placeholder="Password">
+                    <button type="submit">Enviar</button>
                 </form>
             </div >
         </section>

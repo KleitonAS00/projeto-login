@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.884), #ff7070);
+        background-attachment: fixed;
+    }
+
+    .container {
+        max-width: 90vw;
+    }
+
+    .login {
+        display: flex;
+        align-items: center;
+    }
+
+    section > .image {
+        width: 60vw;
+        height: 100vh;
+        background-position: left;
+        background-size: cover;
+    }
+
+    h1 {
+        text-align: left;
+    }
+
+    form, p {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.884), #ff7070);
+        background-attachment: fixed;
+    }
+
+    section > .image {
+        float: right;
+        width: 30%;
+        height: 100%;
+        
+    }
+
+    .form-login {
+        margin: 0 auto;
+    }
+
+    form, p {
+        width: 60%;
+    }
+
+    .login {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+    
+
+}
